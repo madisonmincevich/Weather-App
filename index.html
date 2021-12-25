@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/b006aebb1e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <script src=src/index.js></script>
+  <body>
+    <div class="container">
+      <div class="weatherapp">
+        <div class="row">
+        <div class="col-sm-10">
+          <h1>
+            <strong>
+            London
+            </strong>
+          </h1>
+        </div>
+        <div class="col-sm-2">
+          <span class="conversion">
+            <a href="#" id="fahrenheit-link">°F</a> | 
+            <a href="#" id="celcius-link">°C</a>
+          </span>
+          <span class="aspects">
+                  Precipatation 10%
+                  <br />
+                  Humidity 30%
+              </span>
+        </div>
+        </div>
+          <div class="row">
+            <div class="col-sm-12"
+            <p>
+              <span class="today" id="current-today">
+                Monday 3:12
+              </span>
+              <button
+          type="button";
+          class="btn current-location-button btn-secondary"
+          id="current-location-button">
+                  Current Location
+                </button>
+              <hr />
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3">
+            <span class="first">
+            <strong>
+            <span class="temps" id="temps">
+            70
+            </span>
+            °
+            </strong>
+            <br />
+            <span class="sun" id="sun"
+                  ><img src="images/sunny.png" alt="sun" width="60"
+                /></span>
+            </span>
+          
+          </div>
+          <div class="col-sm-1">
+            <span class="second">
+            Tues
+            <br />
+            <span class="tuesIcon"
+                    ><img src="images/cloudy.png" alt="tuesIcon" width="35"
+                  /></span>
+            <br />
+            <span class="temp1">68°</span>
+            </span>
+          </div>
+          <div class="col-sm-1">
+            <span class="third">
+            Wed
+            <br />
+            <span class="wedIcon"
+                    ><img src="images/sunny.png" alt="wedIcon" width="35"
+                  /></span>
+            <br />
+            <span class="temp2">70°</span>
+            </span>
+          </div>
+          <div class="col-sm-1">
+            <span class="fourth">
+            Thur
+            <br />
+            <span class="thurIcon"
+                    ><img src="images/cloudy.png" alt="thurIcon" width="35"
+                  /></span>
+            <br />
+            <span class="temp3">71°</span>
+            </span>
+          </div>
+          <div class="col-sm-1">
+            <span class="fifth">
+            Fri
+            <br />
+            <span class="friIcon"
+                    ><img src="images/sunny.png" alt="friIcon" width="35"
+                  /></span>
+            <br />
+            <span class="temp4">69°</span>
+          </span>
+          </div>
+          <div class="col-sm-1">
+            <br />
+          </div>
+          <div class="col-sm-3">
+            <span class="pic" id="nature">
+          <img src="images/nature.svg" width="200" />
+            </span>
+          </div>
+          <div class="col-sm-1">
+              <br />
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-7">
+              <form id="search-form">
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleInputCity1"
+                      aria-describedby="cityHelp"
+                      placeholder="Search for your city..."
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-primary">Go</button>
+                </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
