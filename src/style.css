@@ -136,3 +136,13 @@ h1 {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   font-size: 10px;
 }
+
+.coded {
+  color: #ff6584;
+  font-size: 30px;
+}
+
+.name {
+  color: #ff6584;
+  font-size: 30px;
+}
