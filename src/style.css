@@ -139,10 +139,14 @@ h1 {
 
 .coded {
   color: #ff6584;
-  font-size: 30px;
 }
 
 .name {
   color: #ff6584;
-  font-size: 30px;
+  font-family: "Merriweather", serif;
+}
+
+a {
+  color: #ff6584;
+  font-family: "Merriweather", serif;
 }
