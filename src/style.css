@@ -140,12 +140,14 @@ h1 {
 .name {
   color: #ff6584;
   font-family: "Merriweather", serif;
-  display: block;
+  display: inline-block;
+  text-align: center;
 }
 
 a {
   color: #ff6584;
   font-family: "Merriweather", serif;
   font-weight: bold;
-  display: block;
+  display: inline-block;
+  text-align: center;
 }
