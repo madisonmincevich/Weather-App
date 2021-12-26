@@ -137,16 +137,15 @@ h1 {
   font-size: 10px;
 }
 
-.coded {
-  color: #ff6584;
-}
-
 .name {
   color: #ff6584;
   font-family: "Merriweather", serif;
+  display: block;
 }
 
 a {
   color: #ff6584;
   font-family: "Merriweather", serif;
+  font-weight: bold;
+  display: block;
 }
