@@ -144,10 +144,7 @@ h1 {
   text-align: center;
 }
 
-a {
-  color: #ff6584;
-  font-family: "Merriweather", serif;
+a .coded {
+  color: #6db193;
   font-weight: bold;
-  display: inline-block;
-  text-align: center;
 }
